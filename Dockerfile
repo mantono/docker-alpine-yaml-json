@@ -7,5 +7,3 @@ RUN wget https://github.com/bronze1man/yaml2json/releases/download/v1.3/yaml2jso
 RUN chmod -v a+x yaml2json
 RUN mv -v yaml2json /usr/bin/
 RUN npm install -g ajv-cli
-
-ADD yaml_json.sh /usr/bin
